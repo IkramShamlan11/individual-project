@@ -1,0 +1,180 @@
+
+#home {
+    background-color: rgb(182, 151, 125);
+}
+
+h1 {
+    margin-top: 380px;
+    font-family: 'header', sans-serif;
+    color: #653c28;
+    font-size: 4em;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'header', sans-serif;
+    color: #653c28;
+    font-size: 2em;
+}
+
+/* Block styles */
+.block-with-bg-img-1 {
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: auto; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 {
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 700px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 h3{
+    font-family: 'header', sans-serif;
+    color: rgb(41, 41, 41);
+    font-size: 1.5em;
+}
+
+.block-with-bg-img-2 img{
+    width: 60%;
+    height: 80%;
+}
+
+.cta-btn {
+    display: inline-block;
+    color: #fff; /* button text color */
+    background-color: #000; /* button background color */
+    padding: 10px 20px; /* button padding */
+    border-radius: 5px; /* button border radius */
+    text-decoration: none; /* remove underline from link */
+    margin-top: 20px; /* add margin above the button */
+}
+
+.container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container2 {
+    display: flex;
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container3 {
+    display: flex;
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+.container-with-img {
+    display: flex;
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+/* Picture styles */
+#profile-picture {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 2px solid black;
+}
+
+#random-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+/* Section styles */
+section {
+    padding: 20px 0;
+}
+
+
+section p{
+    color: #252525;
+    font-size: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: left;    
+}
+
+section li{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+.cell {
+    color: whitesmoke;
+    width: 100%;
+    padding: 50px;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+td {
+    border-bottom: 1px solid black;
+    border-width: 4px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+td p{
+    font-size: 1.3em;
+    color: rgb(41, 41, 41);
+}
+
+td li{
+    font-size: 1.3em;
+    color: rgb(41, 41, 41);
+}
+
+.col-1 {
+    width: 20%;
+}
+
+.col-2 {
+    width: 60%;
+}
+
+.col-2 p{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.col-2 li{
+    margin-right: 50px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}

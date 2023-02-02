@@ -1,0 +1,121 @@
+/* CSS for the website header and sections */
+
+h1 {
+    margin-top: 380px;
+    font-family: 'header', sans-serif;
+    color: #523121;
+    font-size: 5.5em;
+}
+
+/* Block styles */
+.block-with-bg-img-1 {
+    background-color: rgb(182, 151, 125);
+    font-family: Arial;
+    height: 600px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-2 {
+    background-color: rgb(182, 151, 125);
+    height: auto; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.block-with-bg-img-3 {
+    background-color: rgb(34, 34, 34); /* add the linear gradient on top of the image */
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: 600px; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.text-overlay {
+    position: absolute; /* position the overlay on top of the background image */
+    top: 50%; /* center the overlay vertically */
+    left: 50%; /* center the overlay horizontally */
+    transform: translate(-50%, -50%); /* move the overlay up and left by 50% to center it */
+    color: #fff; /* text color */
+    text-align: center; /* center the text within the overlay */
+    padding: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    color: #fff; /* button text color */
+    background-color: #000; /* button background color */
+    padding: 10px 20px; /* button padding */
+    border-radius: 5px; /* button border radius */
+    text-decoration: none; /* remove underline from link */
+    margin-top: 20px; /* add margin above the button */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container img{
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    width: 50%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#random-picture {
+    display: block;
+    margin-top: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+#profile-picture {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 2px solid black;
+}
+
+/* Add CSS to change color of the button based on which page it shows */
+
+/* Section styles */
+section {
+    padding: 10px;
+}
+
+
+section p{
+    color: #252525;
+    font-size: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#home {
+    background-color: rgb(182, 151, 125);
+}
+
+.cell {
+    width: 33%;
+    color: #fff;
+    padding: 50px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+  

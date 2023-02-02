@@ -1,0 +1,121 @@
+
+#home {
+    background-color: rgb(182, 151, 125);
+}
+
+h1 {
+    margin-top: 380px;
+    font-family: 'header', sans-serif;
+    color: #653c28;
+    font-size: 4em;
+}
+
+/* Block styles */
+.block-with-bg-img-1 {
+    background-size: cover; /* scale the image to cover the entire block */
+    background-position: center; /* center the image within the block */
+    height: auto; /* set the height of the block */
+    position: relative; /* allows the text overlay to be positioned absolutely */
+}
+
+.container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container2 {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.container3 {
+    display: flex;
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+.container-with-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Picture styles */
+#profile-picture {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 2px solid black;
+}
+
+#random-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-item {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.gallery-image1 {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Section styles */
+section {
+    padding: 20px 0;
+}
+
+
+section p{
+    color: #252525;
+    font-size: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section h2 {
+    font-family: 'header', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: left;    
+}
+
+section h3 {
+    font-family: 'header', sans-serif;
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: left;    
+}
+
+section li{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+.cell {
+    color: whitesmoke;
+    width: 100%;
+    padding: 50px;
+}
+
+.icon-text {
+    font-size: 18px;
+}
